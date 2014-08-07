@@ -380,7 +380,7 @@ private:
 template<typename S, typename E>
 FUNC_CONSTEXPR inline const Vector3D_NegateExpr<S, E> operator-(const Vector3D_Expr<S, E>& vector) noexcept
 {
-    return Vector3D_NegateExpr<S, E>(v);
+    return Vector3D_NegateExpr<S, E>(vector);
 }
 
 /**
