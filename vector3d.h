@@ -22,7 +22,6 @@
 
 #include <iostream>
 #include <cmath>
-#include <cassert>
 
 #if defined(__INTEL_COMPILER)
 #define FUNC_CONSTEXPR
